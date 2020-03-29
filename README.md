@@ -1,16 +1,17 @@
+# Homebrew Tap
 
-# Drn Nerd-ls
+`brew tap drn/homebrew-tap`
 
-## How do I install these formulae?
-`brew install drn/nerd-ls/<formula>`
+## Available Formulae
 
-Or `brew tap drn/nerd-ls` and then `brew install <formula>`.
+* [Nerd LS](https://github.com/drn/nerd-ls)
+  * `brew install drn/homebrew-tap/nerd-ls`
 
-Or install via URL (which will not receive updates):
+## Updating Formulae
 
+```bash
+brew edit nerd-ls
+# update version
+brew fetch nerd-ls
+# update version & sha256 in this repository
 ```
-brew install https://raw.githubusercontent.com/drn/homebrew-nerd-ls/master/Formula/<formula>.rb
-```
-
-## Documentation
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
