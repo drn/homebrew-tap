@@ -7,11 +7,13 @@
 * [Nerd LS](https://github.com/drn/nerd-ls)
   * `brew install drn/homebrew-tap/nerd-ls`
 
-## Updating Formulae
+## Maintenance
+
+*Updating Formula*:
 
 ```bash
-brew edit nerd-ls
+brew edit <formula>
 # update version
-brew fetch nerd-ls
+brew fetch <formula>
 # update version & sha256 in this repository
 ```
